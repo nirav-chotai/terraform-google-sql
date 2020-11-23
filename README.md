@@ -1,2 +1,8 @@
 # terraform-google-sql
-Terraform module for Google SQL with Terratest
+
+- Deploy a fully-managed relational database
+- Supports MySQL and PostgreSQL
+- Optional failover instances
+- Optional read replicas
+- Terratest to test the module changes
+- Pre-commit hooks to validate terraform
